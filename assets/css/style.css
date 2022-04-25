@@ -210,6 +210,21 @@ input[type="submit"]:hover {
     color: black;
 }
 
+footer {
+    height: 100px;
+    font-size: 150%;
+}
+
+#footer li{
+    list-style-type: none;
+    float: left;
+    margin: 2% 10%;
+    color: white;
+}
+
+i {
+    font-size: 250%;
+}
 
 
 
