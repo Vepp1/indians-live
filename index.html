@@ -8,14 +8,14 @@
     <title>Indians Live</title>
 </head>
 <body>
-    <header>
+    <header class="sticky">
         <a href="index.html">
             <h1 id="logo">Indians Live</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Join the Fight</a>
+                    <a href="#join">Join the Fight</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
@@ -31,8 +31,8 @@
         <div id="hero_image"></div>
         <div id="information_box">
             <div><h2>More than 2000 indians were killed on the last decade.</h2></div>
-            <div><h2>Our land, costumes and traditions are being destroyed.</h2></div>
-            <div><h2>The greed of powerfulman will cause the collapse of indian tribes, the collapse of Amazon.</h2></div>
+            <div><h2>Their land, costumes and traditions are being destroyed.</h2></div>
+            <div><h2>The greed of powerfull men will cause the collapse of indian tribes, the collapse of Amazon.</h2></div>
         </div>
 
     </section>
@@ -66,24 +66,24 @@
         <form action="https://formdump.codeinstitute.net" method="POST">
 
             <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Your Name">
+            <input type="text" id="fname" name="fname" placeholder="Your Name" required>
             <br>
             <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Your Family Name">
+            <input type="text" id="lname" name="lname" placeholder="Your Family Name" required>
             <br>
             <label for="e_mail">Email Address:</label>
-            <input type="email" id="e_mail" name="e_mail" placeholder="john@mail.com">
+            <input type="email" id="e_mail" name="e_mail" placeholder="john@mail.com" required>
+            <br>
 
-
-            <!-- <label for="terms">I consent that my e-mail, and my personal data (such as name and family name) will be used to sign a petition, in order to stop the land occupation of brazilian native tribes..</label>
-            <input type="checkbox" id="terms">
-                
-    
-            <!-- <label for="newst">I want to receive News and Updates from Indian Live.</label>
-            <input type="checkbox" id="newst"> --> -->
-            
-            
-
+            <div id="agree">
+            <input id="terms" name="agree" value="yes" type="checkbox" required>
+            <label for="terms">I agree with the terms and conditions and consent the permission to use my data (such as name and e-mail) to sign a petition supporting the indians cause.</label>
+            <br>
+            <input id="newst" name="receive" value="yes" type="checkbox">
+            <label for="newst">I want to receive news and updates of the cause via e-mail.</label>
+            </div>
+            <br>
+            <input type="submit" value="Join!">
         </form>
     </fieldset>
     </section>
