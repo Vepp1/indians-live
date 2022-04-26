@@ -173,16 +173,27 @@ input[type=email] {
     margin: 5% auto auto 0;
 }
 
-/* label[for="terms"] {
-    font-size: 50%;
-    float: right;
-    text-align: justify;
-    margin: 5% 5%;
-} */
-
 input[id="terms"] {
     float: left;
+    position: absolute;
+}
+
+input[id="newst"] {
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+}
+
+label[for="terms"] {
     position: relative;
+    margin-left: 3%;
+
+}
+
+label[for="newst"] {
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 1%;
 }
 
 #agree {
