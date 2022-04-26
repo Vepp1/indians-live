@@ -101,11 +101,13 @@ header {
 }
 
 #time_line {
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     background: url(../images/pexels-tom-fisk-2606532.jpg)  center center / cover no-repeat fixed;
-    align-items: center;
-    margin-top: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #time_line div {
@@ -146,11 +148,13 @@ header {
 }
 
 #join {
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     background: url(../images/pexels-pok-rie-1268076.jpg) center center / cover no-repeat fixed;
-    align-items: center;
-    margin-top: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 fieldset {
