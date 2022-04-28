@@ -32,7 +32,8 @@ header {
     width: 100%
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 100px;
 }
 
@@ -80,6 +81,7 @@ header {
     from {
         transform: scale(1.1);
     }
+
     to {
         transform: scale(1);
     }
@@ -112,7 +114,7 @@ header {
 #time_line {
     height: 600px;
     width: 100%;
-    background: url(../images/rainforest.jpg)  center center / cover no-repeat fixed;
+    background: url(../images/rainforest.jpg) center center / cover no-repeat fixed;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,7 +188,7 @@ header {
     animation-name: hero-zoom2;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    overflow: hidden; 
+    overflow: hidden;
     min-height: 700px;
     width: 100%;
 }
@@ -206,13 +208,14 @@ header {
     height: 700px;
     overflow: hidden;
     position: relative;
-    
+
 }
 
 @keyframes hero-zoom2 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -224,7 +227,7 @@ fieldset {
     font-size: 200%;
     background: rgba(0, 0, 0, .6);
     width: 50%;
-    height: 70%%;
+    height: 70%;
     margin: 0 40%;
     padding: 2%;
     margin: 2% 25%;
@@ -234,13 +237,13 @@ fieldset {
     z-index: 8;
 }
 
-fieldset > legend {
+fieldset>legend {
     background-color: green;
 }
 
 
 
-form{
+form {
     align-items: center;
 }
 
@@ -314,7 +317,7 @@ footer {
     text-align: center;
 }
 
-#footer li{
+#footer li {
     list-style-type: none;
     float: left;
     padding-left: 20%;
@@ -334,12 +337,12 @@ i {
     margin-top: 7%;
 }
 
-#gallery > img {
+#gallery>img {
     width: 100%;
     max-height: auto;
 }
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1300px) {
 
     #time_line {
         height: 900px;
@@ -363,16 +366,16 @@ i {
 
     #join_field {
         height: 70%;
-        width:70%;
-       margin-left: 15%;
-       margin-top: 12%;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 12%;
     }
 
     #join_field2 {
         height: 60%;
-        width:70%;
-       margin-left: 15%;
-       margin-top: 2%;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 2%;
     }
 
     input[type="submit"] {
@@ -385,7 +388,7 @@ i {
 
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1000px) {
     #time_line_text {
         padding-bottom: 15%;
     }
@@ -404,7 +407,8 @@ i {
 
     label[for="newst"] {
         margin-top: 8%;
-}
+    }
+
     input[id="newst"] {
         margin-top: 12%;
     }
@@ -412,7 +416,7 @@ i {
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     header {
         height: 20%;
     }
@@ -444,7 +448,7 @@ i {
 
     #time_line div {
         right: 10%;
-        
+
     }
 
     #time_line_text {
@@ -453,7 +457,7 @@ i {
 
     #join_field {
         height: 60%;
-        width:70%;
+        width: 70%;
         margin-left: 15%;
         margin-top: 25%;
     }
@@ -472,7 +476,7 @@ i {
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
 
     #information_box {
@@ -491,7 +495,7 @@ i {
         font-size: 65%;
     }
 
-    #time_line{
+    #time_line {
         font-size: 80%;
     }
 
@@ -499,10 +503,11 @@ i {
         margin-left: 25%;
         width: 60%;
     }
-    
+
     label[for="newst"] {
         margin-top: 15%;
-}
+    }
+
     input[id="newst"] {
         margin-top: 19%;
     }
@@ -511,6 +516,7 @@ i {
         margin-top: 10%;
         font-size: 70%;
     }
+
 }
 
 @media screen and (max-width:600px) {
@@ -518,16 +524,17 @@ i {
     #logo {
         margin-left: 5%;
     }
-    #menu{
+
+    #menu {
         margin-left: 5%;
     }
 
     label[for="newst"] {
         margin-top: 25%;
-}
+    }
+
     input[id="newst"] {
         margin-top: 29%;
     }
 
 }
-
