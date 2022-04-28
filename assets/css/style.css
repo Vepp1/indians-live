@@ -110,14 +110,14 @@ header {
     position: relative;
 }
 
+#time_line p {
+    font-size: 150%;
+}
+
 #time_line {
     height: 600px;
     width: 100%;
     background: url(../images/rainforest.jpg) center center / cover no-repeat fixed;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #time_line div {
@@ -169,43 +169,42 @@ header {
     letter-spacing: 2px;
 }
 
-#join {
-    min-height: 650px;
+#video {
+    height: 800px;
     width: 100%;
-    background: url(../images/deforest.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#video_image {
+    background: url(../images/deforest.jpg) center center / cover no-repeat fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+video {
+    height: 80%;
+    margin-left: 12%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#join {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 #join_image {
     background: url(../images/bird.jpg) center center / cover no-repeat;
-    position: absolute;
     animation-name: hero-zoom2;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    overflow: hidden;
-    min-height: 700px;
+    height: 100%;
     width: 100%;
-}
-
-#join_field {
-    margin-top: 10%;
-    margin-bottom: 30%;
-}
-
-#join_field2 {
-    margin-top: 5%;
-    margin-bottom: 30%;
-}
-
-#join_form {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    position: relative;
-
+    z-index: 0;
 }
 
 @keyframes hero-zoom2 {
@@ -218,6 +217,7 @@ header {
     }
 }
 
+
 fieldset {
     text-align: center;
     color: white;
@@ -225,13 +225,12 @@ fieldset {
     background: rgba(0, 0, 0, .6);
     width: 50%;
     height: 70%;
-    margin: 0 40%;
-    padding: 2%;
-    margin: 2% 25%;
+    margin-top: 10%;
+    margin-left: 25%;
     float: right;
     align-items: center;
     position: absolute;
-    z-index: 8;
+    z-index: 999;
 }
 
 fieldset>legend {
@@ -289,15 +288,15 @@ input[type="submit"]:hover {
 }
 
 footer {
-    height: 100px;
+    height: 150px;
     font-size: 100%;
-    padding-top: 1%;
-    text-align: left;
 }
-
+#footer {
+    margin-top: 5%;
+}
 #footer li {
+    display: inline;
     list-style-type: none;
-    float: left;
     padding-left: 20%;
     color: white;
 }
@@ -334,25 +333,11 @@ i {
     #time_line_text {
         position: absolute;
         margin-top: 10%;
-        height: 40%;
-        width: 40%;
-        margin-left: 50%;
-        margin-top: 20%;
-    }
-
-
-    #join_field {
-        height: 70%;
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 12%;
-    }
-
-    #join_field2 {
         height: 60%;
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 2%;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: 20%;
+        font-size: 150%;
     }
 
     input[type="submit"] {
@@ -361,6 +346,10 @@ i {
         left: 79%;
         position: absolute;
 
+    }
+
+    video {
+        height: 70%;
     }
 
 }
@@ -381,6 +370,16 @@ i {
         margin-top: 5%;
     }
 
+    fieldset {
+        margin-top: 15%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    video {
+        height: 50%;
+        margin-top: 20%;
+    }
 }
 
 
@@ -413,21 +412,31 @@ i {
         height: 10%;
     }
 
-    #time_line div {
-        right: 10%;
-
-    }
-
     #time_line_text {
-        height: 60%;
+        font-size: 120%;
     }
 
-    #join_field {
-        height: 60%;
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 25%;
+    #join, #join_Image {
+        height: 850px;
     }
+
+    fieldset {
+        margin-top: 30%;
+    }
+
+    #footer {
+        font-size: 70%;
+    }
+
+    video {
+        margin-left: 20%;
+    }
+
+    #video {
+        height: 600px;
+    }
+
+
 }
 
 @media screen and (max-width:600px) {
@@ -453,19 +462,25 @@ i {
         font-size: 80%;
     }
 
-    #time_line_text {
-        margin-left: 25%;
-        width: 60%;
+    fieldset {
+        margin-top: 40%;
     }
 
-    footer {
-        margin-top: 10%;
-        font-size: 70%;
+    #join, #join_Image {
+        height: 750px;
     }
 
+    video {
+        height: 60%;
+        margin-left: 15%;
+    }
+
+    #video {
+        height: 400px;
+    }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
 
     #logo {
         margin-left: 5%;
@@ -475,4 +490,29 @@ i {
         margin-left: 5%;
     }
 
+    #time_line {
+        font-size: 60%;
+    }
+
+    #footer {
+        font-size: 50%;
+    
+    }
+
+    fieldset {
+        margin-top: 40%;
+    }
+
+    video {
+        height: 40%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    fieldset {
+        margin-top: 50%;
+        width: 70%;
+        margin-left: 20%;
+    }
 }
