@@ -515,4 +515,8 @@ i {
         width: 70%;
         margin-left: 20%;
     }
+
+    footer {
+        height: 50px;
+    }
 }
