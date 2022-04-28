@@ -474,6 +474,7 @@ i {
 
 @media screen and (max-width:600px){
 
+
     #information_box {
         margin-top: 30%;
     }
@@ -488,6 +489,10 @@ i {
         float: left;
         line-height: 250px;
         font-size: 65%;
+    }
+
+    #time_line{
+        font-size: 80%;
     }
 
     #time_line_text {
@@ -506,5 +511,23 @@ i {
         margin-top: 10%;
         font-size: 70%;
     }
+}
+
+@media screen and (max-width:600px) {
+
+    #logo {
+        margin-left: 5%;
+    }
+    #menu{
+        margin-left: 5%;
+    }
+
+    label[for="newst"] {
+        margin-top: 25%;
+}
+    input[id="newst"] {
+        margin-top: 29%;
+    }
+
 }
 
