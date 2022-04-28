@@ -23,7 +23,7 @@ body {
 header {
     background: inherit;
     height: 100px;
-    z-index: 9;
+    z-index: 999;
 }
 
 .sticky {
@@ -118,6 +118,7 @@ header {
     height: 600px;
     width: 100%;
     background: url(../images/rainforest.jpg) center center / cover no-repeat fixed;
+    position: relative;
 }
 
 #time_line div {
@@ -181,6 +182,7 @@ header {
     height: 100%;
     width: 100%;
     z-index: 0;
+    position: relative;
 }
 
 video {
@@ -230,7 +232,7 @@ fieldset {
     float: right;
     align-items: center;
     position: absolute;
-    z-index: 999;
+    z-index: 2;
 }
 
 fieldset>legend {
@@ -511,7 +513,7 @@ i {
     }
 
     video {
-        height: 40%;
+    margin-left: 6%;
     }
 
     #gallery {
@@ -530,6 +532,10 @@ i {
     footer {
         height: 50px;
     }
+
+    video {
+        margin-left: 2%;
+        }
 
     #gallery {
         margin-top: 45%;
