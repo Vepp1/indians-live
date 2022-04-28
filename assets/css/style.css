@@ -436,6 +436,9 @@ i {
         height: 600px;
     }
 
+    #gallery {
+        margin-top: 25%;
+    }
 
 }
 
@@ -478,6 +481,10 @@ i {
     #video {
         height: 400px;
     }
+
+    #gallery {
+        margin-top: 30%;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -507,6 +514,10 @@ i {
         height: 40%;
     }
 
+    #gallery {
+        margin-top: 35%;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -518,5 +529,9 @@ i {
 
     footer {
         height: 50px;
+    }
+
+    #gallery {
+        margin-top: 45%;
     }
 }
