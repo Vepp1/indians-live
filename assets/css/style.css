@@ -105,9 +105,8 @@ header {
     margin-top: 5%;
     padding: 10px;
     bottom: 30px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
-    text-align: justify;
     position: relative;
 }
 
@@ -129,21 +128,20 @@ header {
     float: left;
     margin: 1% 1% 0 10%;
     padding: 2%;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
-    text-align: justify;
     border: 1px solid white;
     position: relative;
     margin-bottom: 2%;
 }
 
 #time_line h2 {
-    text-align: center;
+    text-align: left;
     position: relative;
 }
 
 #time_line h3 {
-    text-align: justify;
+    text-align: left;
     margin-top: 5%;
     position: relative;
 }
@@ -156,7 +154,7 @@ header {
     margin-right: 20%;
     position: relative;
     border: 1px solid white;
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 30px 20px 30px 20px;
     overflow: hidden;
@@ -169,7 +167,6 @@ header {
     font-size: 120%;
     font-weight: 600;
     letter-spacing: 2px;
-    text-align: justify;
 }
 
 #join {
@@ -261,37 +258,18 @@ input[type=email] {
     margin: 5% auto auto 0;
 }
 
-input[id="terms"] {
-    float: left;
-    position: absolute;
-    left: 3%;
-}
-
-input[id="newst"] {
-    float: left;
-    position: absolute;
-    margin-top: 5%;
-    left: 3%;
-}
-
-label[for="terms"] {
-    position: absolute;
-    margin-left: 3%;
-    padding-right: 30px;
-}
-
-label[for="newst"] {
-    position: absolute;
-    margin-left: 3%;
-    padding-top: 5%;
-    padding-right: 20px;
-}
 
 #agree {
     align-items: center;
     margin: 10% 2% 2% 2%;
     font-size: 50%;
-    text-align: justify;
+    text-align: left;
+    display: flexbox;
+}
+
+#agree input, label {
+    margin-top: 2%;
+
 }
 
 input[type="submit"] {
@@ -314,7 +292,7 @@ footer {
     height: 100px;
     font-size: 100%;
     padding-top: 1%;
-    text-align: center;
+    text-align: left;
 }
 
 #footer li {
@@ -358,7 +336,6 @@ i {
         margin-top: 10%;
         height: 40%;
         width: 40%;
-        text-align: center;
         margin-left: 50%;
         margin-top: 20%;
     }
@@ -400,17 +377,8 @@ i {
     #information_box div {
         width: 80%;
         height: 100px;
-        text-align: center;
         margin-left: 5%;
         margin-top: 5%;
-    }
-
-    label[for="newst"] {
-        margin-top: 8%;
-    }
-
-    input[id="newst"] {
-        margin-top: 12%;
     }
 
 }
@@ -424,7 +392,6 @@ i {
     #logo {
         position: relative;
         margin-left: 35%;
-        text-align: center;
     }
 
     #hero_outer {
@@ -461,19 +428,6 @@ i {
         margin-left: 15%;
         margin-top: 25%;
     }
-
-
-    input[type="submit"] {
-        margin-top: 10%;
-    }
-
-    label[for="newst"] {
-        margin-top: 5%;
-    }
-
-    input[id="newst"] {
-        margin-top: 10%;
-    }
 }
 
 @media screen and (max-width:600px) {
@@ -504,14 +458,6 @@ i {
         width: 60%;
     }
 
-    label[for="newst"] {
-        margin-top: 15%;
-    }
-
-    input[id="newst"] {
-        margin-top: 19%;
-    }
-
     footer {
         margin-top: 10%;
         font-size: 70%;
@@ -527,14 +473,6 @@ i {
 
     #menu {
         margin-left: 5%;
-    }
-
-    label[for="newst"] {
-        margin-top: 25%;
-    }
-
-    input[id="newst"] {
-        margin-top: 29%;
     }
 
 }
