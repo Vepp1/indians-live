@@ -2,6 +2,8 @@
 
 Indians Live is a website with a simple layout to target all publics. The goal of this website, is to find worldwide supporters to sign a petition against the ivasion of native lands in Brasil. The website first present the problem through information box and time-line and then the solution in join form.
 
+![Desktop View](https://github.com/Vepp1/indians-live/tree/main/assets/images/desktopview.png)
+
 ----
 
 ## Features 
