@@ -265,7 +265,6 @@ input[type=email] {
     margin: 10% 2% 2% 2%;
     font-size: 50%;
     text-align: left;
-    display: flexbox;
 }
 
 #agree input,
@@ -321,7 +320,6 @@ i {
 
 #gallery>img {
     width: 100%;
-    max-height: auto;
 }
 
 @media screen and (max-width:1300px) {
