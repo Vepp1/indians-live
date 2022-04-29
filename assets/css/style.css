@@ -268,7 +268,8 @@ input[type=email] {
     display: flexbox;
 }
 
-#agree input, label {
+#agree input,
+label {
     margin-top: 2%;
 
 }
@@ -293,9 +294,11 @@ footer {
     height: 150px;
     font-size: 100%;
 }
+
 #footer {
     margin-top: 5%;
 }
+
 #footer li {
     display: inline;
     list-style-type: none;
@@ -418,7 +421,8 @@ i {
         font-size: 120%;
     }
 
-    #join, #join_Image {
+    #join,
+    #join_Image {
         height: 850px;
     }
 
@@ -471,7 +475,8 @@ i {
         margin-top: 40%;
     }
 
-    #join, #join_Image {
+    #join,
+    #join_Image {
         height: 750px;
     }
 
@@ -505,7 +510,7 @@ i {
 
     #footer {
         font-size: 50%;
-    
+
     }
 
     fieldset {
@@ -513,7 +518,7 @@ i {
     }
 
     video {
-    margin-left: 6%;
+        margin-left: 6%;
     }
 
     #gallery {
@@ -535,7 +540,7 @@ i {
 
     video {
         margin-left: 2%;
-        }
+    }
 
     #gallery {
         margin-top: 45%;
