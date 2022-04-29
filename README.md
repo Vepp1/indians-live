@@ -2,7 +2,7 @@
 
 Indians Live is a website with a simple layout to target all publics. The goal of this website, is to find worldwide supporters to sign a petition against the ivasion of native lands in Brasil. The website first present the problem through information box and time-line and then the solution in join form.
 
-![Desktop View](https://github.com/Vepp1/indians-live/tree/main/assets/images/desktopview.png)
+![Desktop View](assets/images/desktopview-min.png)
 
 ----
 
@@ -17,25 +17,35 @@ The website has a beautyful style but at the same way accessible and easy to be 
     - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
+    ![Navigation Bar](assets/images/nav.png)
+
 - __The landing page image__
 
   - This section will present to the user a time-line to provide meaning to the cause. 
   - This section will provide context for the rest of the wesite. 
+
+  ![Landing Page](assets/images/landing_page.png)
 
   - __The video section__
 
   - This section will allow the user to watch a video with control options. 
   - This section will provide awareness about Amazon preservation.
 
+  ![Video Page](assets/images/video_page.png)
+
  - __The join section__
 
   - This section will allow the user to complete a form with personal data. 
   - This section will use the user's data to sign a petition supporting the native tribes cause.
 
+  ![Video Page](assets/images/join.png)
+
    - __Gallery__
 
   - The gallery will provide the user with supporting images to see what Amazon and the native tribes look like. 
   - This section is valuable to the user as they will be able to sympathize with the cause. 
+
+  ![Video Page](assets/images/gallery.png)
 
 ----
 
@@ -74,6 +84,7 @@ The live link can be found here - https://vepp1.github.io/indians-live/index.htm
 
 - The text for the Home page was written based on data found on Wikipedia and Gazeta do Povo webpages.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The keyframe animation was inspired on my other project Love Running.
 
 ### Media
 

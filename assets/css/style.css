@@ -164,7 +164,6 @@ header {
 
 #time_line_text p {
     position: relative;
-    padding: %;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -546,4 +545,5 @@ i {
 
     #menu {
         line-height: 10px;
+    }  
 }
